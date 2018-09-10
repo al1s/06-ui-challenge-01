@@ -26,6 +26,7 @@ It's a single responsive webpage based off of the provided design. It must be de
 
 ## Change log
 
+09-10-2018 12:14am - Fix mess with GH.
 09-10-2018 11:57am - Add color changing depending on screen size and orientation.
 09-10-2018 11:15am - Add styles to desktop and mobile layouts.
 09-10-2018 09:27am - Set up basic project starter.
