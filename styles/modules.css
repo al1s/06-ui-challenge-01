@@ -78,6 +78,7 @@
 }
 
 @media only screen and (min-width: 768px) {
+
   .top__nav {
     flex: 0 0 200px;
     height: 600px;

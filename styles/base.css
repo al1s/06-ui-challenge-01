@@ -20,6 +20,7 @@ body {
   }
 }
 
+
 @media only screen and (orientation: landscape) {
   :root {
     --shift: 20;
