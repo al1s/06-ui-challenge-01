@@ -1,11 +1,27 @@
-/* === BASE RULES === */
+:root {
+  --shift: 90;
+  --basic-color: hsl(calc(var(--shift) + 165), 100%, 33%);
+  --nav-color: hsl(calc(var(--shift) + 214), 55%, 62%);
+  --primary-color: hsl(calc(var(--shift) + 102), 78%, 67%);
+  --secondary-color: hsl(calc(var(--shift) + 165), 100%, 21%);
+  --accent-color: hsl(calc(var(--shift) + 22), 100%, 50%);
+  --neutral-color: #aaa;
+}
 
 body {
   font-size: 2em;
-  color: #313131;
+  color: var(--black-color);
   width: 100vw;
 }
 
-* {
-  outline: 1px solid red;
+@media only screen and (min-width: 768px) {
+  :root {
+    --shift: 0;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  :root {
+    --shift: 20;
+  }
 }
