@@ -4,13 +4,13 @@ It's a single responsive webpage based off of the provided design. It must be de
 
 ## Feature Tasks
 
-Create a new repository named ui-challenge-01.
+[x] Create a new repository named ui-challenge-01.
 
-Work on a non-master branch.
+[x] Work on a non-master branch.
 
-Use good HTML structure to scaffold this site, using semantic elements where possible.
+[x] Use good HTML structure to scaffold this site, using semantic elements where possible.
 
-Container elements (a box outside of your content box that might contain multiple content boxes) are very useful in managing layout. You will need to think about the relationship between parent and child / descendant elements as well as the order in which you place them in the HTML. Be thoughtful about your layout strategy.
+[x] Container elements (a box outside of your content box that might contain multiple content boxes) are very useful in managing layout. You will need to think about the relationship between parent and child / descendant elements as well as the order in which you place them in the HTML. Be thoughtful about your layout strategy.
 
 Use SMACSS-style modularity to organize your CSS.
 
@@ -23,3 +23,7 @@ Each box should have a unique background color in mobile view and in desktop vie
 ## Stretch Goal
 
 Create an additional breakpoint for a new set of colors when the page is viewed on a tablet.
+
+## Change log
+
+09-10-2018 09:27am - Set up basic project starter.
