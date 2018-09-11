@@ -9,7 +9,6 @@
 }
 
 .box {
-  background-color: var(--primary-color);
   outline: 1px solid var(--neutral-color);
 }
 
@@ -19,7 +18,9 @@
 }
 
 .top__nav {
+  display: flex;
   height: 150px;
+  justify-content: center;
 }
 
 .teasers {
@@ -28,7 +29,9 @@
 }
 
 .teaser__item {
+  display: flex;
   height: 125px;
+  justify-content: center;
 }
 
 .boxes {
@@ -38,8 +41,35 @@
 }
 
 .box {
+  display: flex;
   flex: 0 0 auto;
+  justify-content: center;
   min-height: 20vh;
+}
+
+.box:nth-of-type(1) {
+  --shift: 50;
+}
+
+.box:nth-of-type(2) {
+  --shift: 70;
+}
+
+.box:nth-of-type(3) {
+  --shift: 90;
+}
+
+.box:nth-of-type(4) {
+  --shift: 150;
+}
+
+.box {
+  --primary-color: hsl(
+    calc(var(--shift) + var(--primary-color-h)),
+    var(--primary-color-s),
+    var(--primary-color-l)
+  );
+  background-color: var(--primary-color);
 }
 
 @media only screen and (max-width: 480px) {
@@ -78,7 +108,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
   .top__nav {
     flex: 0 0 200px;
     height: 600px;
