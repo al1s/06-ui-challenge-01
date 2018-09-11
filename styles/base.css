@@ -2,7 +2,14 @@
   --shift: 90;
   --basic-color: hsl(calc(var(--shift) + 165), 100%, 33%);
   --nav-color: hsl(calc(var(--shift) + 214), 55%, 62%);
-  --primary-color: hsl(calc(var(--shift) + 102), 78%, 67%);
+  --primary-color-h: 102;
+  --primary-color-s: 78%;
+  --primary-color-l: 67%;
+  --primary-color: hsl(
+    calc(var(--shift) + var(--primary-color-h)),
+    var(--primary-color-s),
+    var(--primary-color-l)
+  );
   --secondary-color: hsl(calc(var(--shift) + 165), 100%, 21%);
   --accent-color: hsl(calc(var(--shift) + 22), 100%, 50%);
   --neutral-color: #aaa;
